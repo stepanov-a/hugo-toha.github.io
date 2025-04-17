@@ -1,0 +1,62 @@
+# section information
+section:
+  name: Publications
+  id: publications
+  enable: true
+  weight: 6
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: "Machine Learning"
+  filter: "machinelearning"
+- name: "Image Processing"
+  filter: "image-processing"
+- name: Security
+  filter: "security"
+
+# your publications
+publications:
+- title: Научные исследования техноллогии Blockchain
+  publishedIn:
+    name: 2020 IEEE Region Symposium (TENSYMP)
+    date: 7 June 2020
+    url: https://example.com
+  authors:
+  - name: Dr. Madman
+    url: https://example.com
+  - name: Dr. Lessmad
+    url: https://example.com
+  - name: Dr. Moremad
+    url: https://example.com
+  - name: Dr. Goodman
+    url: https://example.com
+  paper:
+    summary: В своей лекции руководитель направления Национальной Технологической Инициативы Степанов Александр рассмотрел основные принципы организации проектов с использованием технологии Blockchain.
+    url: https://vk.com/video-206128107_456239053?
+  categories: ["machinelearning","image-processing"]
+  tags: ["Machine Learning", "Autonomous Driving", "Computer Vision"]
+
+- title: Блокчейн, нейросети и цифровое искусство
+  publishedIn:
+    name: vk ТЕХПросвет
+    date: 7 october 2022
+    url: https://example.com
+  authors:
+  - name: Alexander Stepanov
+    url: https://astepanov.pro
+  #- name: Dr. Lessmad
+   # url: https://example.com
+  #- name: Dr. Moremad
+   # url: https://example.com
+  #- name: Dr. Goodman
+  #  url: https://example.com
+  paper:
+    summary: В подкасте ВК обсудили наступившие будущее на примере нейронных сетей
+    url: https://vk.com/video-218852519_456239028
+  categories: ["security"]
+  tags: ["Machine Learning", "Autonomous Driving", "Machine Vision"]

@@ -1,0 +1,76 @@
+# section information
+section:
+  name: Проекты
+  id: projects
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Professional
+  filter: "professional"
+- name: Academic
+  filter: "academic"
+- name: Hobby
+  filter: "hobby"
+
+# your projects
+projects:
+- name: Криптономикон
+  logo: /images/sections/projects/ethereum.jpg
+  role:  Совладелец, архитектор
+  timeline: "Март 2023 - настоящее время"
+  #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: "/posts/cases/highload/fintech/web3/cryptonomicon/"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Проектирование и управление разработкой решения
+  tags: ["проектирование стартапа", "управление", "разраюотка"]
+
+- name: Корпоративный коммуникационный комплекс
+  logo: /images/sections/projects/toha.png
+  url: /posts/cases/orgs/corporate_communications/
+  role: Owner
+  timeline: "Jun 2019 - Present"
+  summary: A Hugo theme for personal portfolio.
+  tags: ["hobby","hugo","theme","professional"]
+
+- name: AI Club
+  role: Архитектор
+  timeline: "Jan 2017 - Nov 2017"
+  url: "https://www.example.com"
+  summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
+  tags: ["academic","iot"]
+
+- name: Корпоративная база знаний
+  logo: /images/sections/projects/ethereum.jpg
+  role: Архитектор
+  timeline: "Март 2023 - настоящее время"
+  #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: "/posts/cases/highload/fintech/web3/cryptonomicon/"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Проектирование и управление разработкой решения
+  tags: ["проектирование стартапа", "управление", "разраюотка"]
+
+
+- name: Чат-бот Userhub
+  logo: /images/sections/projects/no-code.png
+  role: Nothing
+  timeline: "Oct 2019 - Dec 2019"
+  repo: https://github.com/kelseyhightower/nocode
+  #url: ""
+  summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
+  tags: ["hobby", "fun"]
+
+- name: Дамир
+  logo: /images/sections/projects/toha.png
+  image: /images/sections/projects/toha_website.png
+  role: Owner
+  timeline: "Jun 2019 - Present"
+  repo: https://github.com/hossainemruz/toha
+  summary: A Hugo theme for personal portfolio.
+  tags: ["hobby","hugo","theme","professional"]
+
+

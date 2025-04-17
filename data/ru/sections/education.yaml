@@ -1,0 +1,32 @@
+# section information
+section:
+  name: Образование
+  id: education
+  template: sections/education.html
+  enable: true
+  weight: 4
+  showOnNavbar: true
+
+degrees:
+- name: Бакалавр в области бизнес-информатики
+  icon: fa-graduation-cap
+  timeframe: 2012–2015
+  institution:
+    name: Московский энергетический институт (Национальный исследовательский университет), Москва
+  #  url: "#"
+    logo: /images/sections/education/mpei.jpg
+  customSections:
+    - name: Специальность
+      content: Прикладная и бизнес-информатика, профиль — Бизнес-информатика
+
+- name: Техник-программист
+  icon: fa-laptop-code
+  timeframe: 2010–2012
+  institution:
+    name: Московский государственный колледж информационных технологий
+   # url: "#"
+    logo: /images/sections/education/mgkit_logo.png
+
+  customSections:
+    - name: Специальность
+      content: Программное обеспечение вычислительной техники и автоматизированных систем

@@ -1,0 +1,144 @@
+# section information
+section:
+  name: Опыт
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Индивидуальный предприниматель
+    url: "https://astepanov.pro"
+    location: Moscow
+   # logo: /images/sections/experiences/2035.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/experiences/company1.jpg
+    # company overview
+    overview: Консультационные услуги, разработка и внедрение opensource и заказных решений.
+  positions:
+  - designation: Независимый IT - консультант
+    start: jAN 2023
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    #end: Dec 2022
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Проектирование информационных систем
+    - Управление разработкой стартапов
+    - Оптимизация информационной архитектуры предприятия
+    - Внедрение open source решений и решений в области импортозамещения
+
+- company:
+    name: Университет 20.35
+    url: "https://2035.university"
+    location: Москва
+    logo: /images/sections/experiences/2035.png
+    overview: Университет 2035 — образовательная платформа, реализующая проекты в рамках цифровой трансформации и ИИ.
+  positions:
+    - designation: Руководитель дирекции анализа данных
+      start: Jan 2021
+      end: Dec 2022
+      responsibilities:
+        - Формирование единой политики управления данными организации
+        - Формирование и администрирование корпоративных баз знаний
+        - Руководство дирекцией анализа данных в рамках реализации федерального проекта "Кадры для цифровой экономики".
+        - Подготовка документации для интеграции с ЕСИА.
+        - Разработка технических заданий, формализация задач, выстраивание процессов.
+        - Проектирование и управление более 80 интеграциями
+    - designation: Руководитель проекта подготовки лидеров цифровой трансформации Chief Data Officer
+      start: Aug 2020
+      end: Dec 2021
+      responsibilities:
+        - Руководство мероприятием Федерального проекта "Кадры для Цифровой экономики".
+        - Техническое проектирование интеграционных взаимодействий с партнёрами (Nvidia, edX и др.).
+        - Ведение переговоров, согласование процессов и доработок с технической дирекцией.
+        - Разработка и участие в переговорах с партнерами.
+    - designation: Руководитель направления интеграционных решений проекта "Искусственный интеллект"
+      start: Jul 2019
+      end: Aug 2020
+      responsibilities:
+        - Техническое проектирование интеграционных взаимодействий с партнёрами (Nvidia, edX и др.).
+        - Ведение переговоров, согласование процессов и доработок с технической дирекцией.
+        - Разработка и участие в переговорах с партнерами.
+
+- company:
+    name: Финансовый Университет при Правительстве Российской Федерации
+    url: "http://www.fa.ru/"
+    location: Москва
+    logo: /images/sections/experiences/fa.svg
+    overview: 
+  positions:
+    - designation: Член государственной экзаменационной комиссии факультета анализа данных
+      start: Jun 2021
+      end: Jun 2024
+     # responsibilities:
+    #    - Проверка и оценка ВКР студентов по специальности "Анализ данных".
+      
+- company:
+    name: Российский Экономический Университет им. Плеханова
+    url: "http://www.рэу.рф"
+    location: Москва
+    logo: /images/sections/experiences/rea.svg
+    overview: 
+  positions:
+    - designation: Автор и методист образовательной программы "Смарт-контракты в цифровой экономике"
+      start: Jun 2019
+      end: Jun 2022
+
+- company:
+    name: ЛАНИТ
+    url: "https://job.lanit.ru"
+    location: Москва
+    logo: /images/sections/experiences/company1.jpg
+    overview: ЛАНИТ — крупная российская IT-компания и системный интегратор.
+  positions:
+    - designation: Ведущий .NET разработчик
+      start: May 2012
+      end: Jun 2019
+      responsibilities:
+        - Разработка ПО на C# и .NET, архитектура API, проектирование баз данных.
+        - Постановка задач, контроль исполнения
+        - Использование WCF, ORM (EF, L2S), паттерны GoF, DDD, ASP.Net MVC/WebForms.
+        - Разработка ядра системы для Федерального Казначейства РФ (интеграция с СМЭВ, использование КриптоПро).
+        - Изучение и преподавание Solidity, создание обучающего курса.
+        - Разработка плагина для Visual Studio для анализа необработанных исключений.
+        - Разработка образовательной платформы с чатом и авторизацией.
+  
+
+- company:
+    name: УНИКИТ — колледж информационных технологий
+    url: "http://www.mgkit.ru/"
+    location: Москва
+ #   logo: /images/sections/experiences/company3.jpg
+    overview: Московский государственный колледж информационных технологий.
+  positions:
+    - designation: Член государственной экзаменационной комиссии
+      start: Jun 2019
+      end: Jun 2019
+      responsibilities:
+        - Проверка и оценка ВКР студентов по специальности "Программирование в компьютерных системах".
+        - Оценка более 50 выпускных квалификационных работ.
+    - designation: Преподаватель программирования
+      start: Oct 2014
+      end: Dec 2014
+      responsibilities:
+        - Ведение курса «Прикладное программирование».
+        - Руководство студентами при создании клиент-серверных приложений.
+        - Подготовка студентов к защите ВКР.
+
+- company:
+    name: ЦНИИ "Комета"
+    url: "http://www.cniikometa.ru/"
+    location: Москва
+    logo: /images/sections/experiences/company4.jpg
+    overview: Научно-исследовательский центр, специализирующийся на разработках в аэрокосмической отрасли.
+  positions:
+    - designation: Техник
+      start: Sep 2011
+      end: May 2012
+      responsibilities:
+        - Разработка ПО на C++ с использованием Qt4 для анализа спутниковых данных.
+        - Выступление на конференции молодых специалистов с докладом по обработке бинарных массивов.
